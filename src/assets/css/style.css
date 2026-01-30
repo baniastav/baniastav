@@ -333,6 +333,37 @@ a:hover {
   letter-spacing: -0.03em;
   line-height: 1.1;
   margin-bottom: var(--spacing-sm);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.hero__heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(242, 140, 40, 0.15) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(242, 140, 40, 0.15) 75%,
+    transparent 100%
+  );
+  animation: heroShimmer 1.2s ease-in-out 1.5s forwards;
+  pointer-events: none;
+}
+
+@keyframes heroShimmer {
+  0% {
+    left: -60%;
+  }
+  100% {
+    left: 120%;
+  }
 }
 
 .hero__subheading {
@@ -813,6 +844,17 @@ a:hover {
   grid-column: 1 / -1;
   text-align: center;
   font-size: var(--font-size-sm);
+}
+
+.footer__admin {
+  color: rgba(255, 255, 255, 0.25);
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  transition: color 0.3s ease;
+}
+
+.footer__admin:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ========================================
