@@ -72,38 +72,44 @@ collections:
   # --- Služby ---
   - name: "services"
     label: "Služby"
-    file: "src/_data/services.json"
     description: "Seznam nabízených služeb"
-    fields:
-      - label: "Služby"
-        name: "services"
-        widget: "list"
+    files:
+      - name: "services_file"
+        label: "Služby"
+        file: "src/_data/services.json"
         fields:
-          - { label: "Název služby", name: "title", widget: "string" }
-          - { label: "Popis", name: "description", widget: "text" }
-          - label: "Ikona"
-            name: "icon"
-            widget: "select"
-            options:
-              - { label: "Rekonstrukce", value: "reconstruction" }
-              - { label: "Stavba", value: "building" }
-              - { label: "Zateplení", value: "insulation" }
-              - { label: "Obklady", value: "tiles" }
-              - { label: "Sádrokartony", value: "drywall" }
-              - { label: "Malování", value: "painting" }
-              - { label: "Ostatní", value: "other" }
+          - label: "Služby"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Název služby", name: "title", widget: "string" }
+              - { label: "Popis", name: "description", widget: "text" }
+              - label: "Ikona"
+                name: "icon"
+                widget: "select"
+                options:
+                  - { label: "Rekonstrukce", value: "reconstruction" }
+                  - { label: "Stavba", value: "building" }
+                  - { label: "Zateplení", value: "insulation" }
+                  - { label: "Obklady", value: "tiles" }
+                  - { label: "Sádrokartony", value: "drywall" }
+                  - { label: "Malování", value: "painting" }
+                  - { label: "Ostatní", value: "other" }
 
   # --- Reference ---
   - name: "references"
     label: "Reference"
-    file: "src/_data/references.json"
     description: "Galerie realizovaných projektů"
-    fields:
-      - label: "Reference"
-        name: "references"
-        widget: "list"
+    files:
+      - name: "references_file"
+        label: "Reference"
+        file: "src/_data/references.json"
         fields:
-          - { label: "Název projektu", name: "title", widget: "string" }
-          - { label: "Popis", name: "description", widget: "text" }
-          - { label: "Fotografie", name: "image", widget: "image" }
-          - { label: "Rok realizace", name: "year", widget: "string" }
+          - label: "Reference"
+            name: "references"
+            widget: "list"
+            fields:
+              - { label: "Název projektu", name: "title", widget: "string" }
+              - { label: "Popis", name: "description", widget: "text" }
+              - { label: "Fotografie", name: "image", widget: "image" }
+              - { label: "Rok realizace", name: "year", widget: "string" }
