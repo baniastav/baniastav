@@ -1,32 +1,34 @@
-[
-  {
-    "title": "Kompletní rekonstrukce",
-    "description": "Celkové rekonstrukce bytů, domů i komerčních prostor na klíč. Od projektu po předání.",
-    "icon": "reconstruction"
-  },
-  {
-    "title": "Novostavby",
-    "description": "Výstavba rodinných domů a menších objektů. Kvalitní provedení od základů po střechu.",
-    "icon": "building"
-  },
-  {
-    "title": "Zateplení fasád",
-    "description": "Kontaktní zateplovací systémy ETICS. Snižte náklady na vytápění a zvyšte hodnotu nemovitosti.",
-    "icon": "insulation"
-  },
-  {
-    "title": "Obklady a dlažby",
-    "description": "Precizní pokládka obkladů a dlažeb v interiéru i exteriéru. Koupelny, kuchyně, terasy.",
-    "icon": "tiles"
-  },
-  {
-    "title": "Sádrokartony",
-    "description": "Příčky, podhledy, předstěny a designové prvky ze sádrokartonu. Čistá a rychlá realizace.",
-    "icon": "drywall"
-  },
-  {
-    "title": "Malířské práce",
-    "description": "Profesionální malování a nátěry. Dekorativní techniky, stěrky a tapetování.",
-    "icon": "painting"
-  }
-]
+{
+  "services": [
+    {
+      "title": "Kompletní rekonstrukce",
+      "description": "Celkové rekonstrukce bytů, domů i komerčních prostor na klíč. Od projektu po předání.",
+      "icon": "reconstruction"
+    },
+    {
+      "title": "Novostavby",
+      "description": "Výstavba rodinných domů a menších objektů. Kvalitní provedení od základů po střechu.",
+      "icon": "building"
+    },
+    {
+      "title": "Zateplení fasád",
+      "description": "Kontaktní zateplovací systémy ETICS. Snižte náklady na vytápění a zvyšte hodnotu nemovitosti.",
+      "icon": "insulation"
+    },
+    {
+      "title": "Obklady a dlažby",
+      "description": "Precizní pokládka obkladů a dlažeb v interiéru i exteriéru. Koupelny, kuchyně, terasy.",
+      "icon": "tiles"
+    },
+    {
+      "title": "Sádrokartony",
+      "description": "Příčky, podhledy, předstěny a designové prvky ze sádrokartonu. Čistá a rychlá realizace.",
+      "icon": "drywall"
+    },
+    {
+      "title": "Malířské práce",
+      "description": "Profesionální malování a nátěry. Dekorativní techniky, stěrky a tapetování.",
+      "icon": "painting"
+    }
+  ]
+}

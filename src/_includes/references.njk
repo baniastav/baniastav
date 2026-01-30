@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="section__title reveal fade-up">Naše reference</h2>
     <div class="references__grid">
-      {% for ref in references %}
+      {% for ref in references.references %}
       <div class="ref-card reveal fade-up stagger" data-delay="{{ loop.index0 * 150 }}">
         <div class="ref-card__image-wrap">
           <div class="ref-card__image" style="background-image: url('{{ ref.image | url }}');" data-lightbox="{{ ref.image | url }}" data-caption="{{ ref.title }}">

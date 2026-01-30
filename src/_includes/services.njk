@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="section__title reveal fade-up">Naše služby</h2>
     <div class="services__grid">
-      {% for service in services %}
+      {% for service in services.services %}
       <div class="service-card reveal fade-up stagger" data-delay="{{ loop.index0 * 100 }}">
         <div class="service-card__icon" data-icon="{{ service.icon }}">
           {% if service.icon == "reconstruction" %}

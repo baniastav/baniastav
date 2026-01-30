@@ -1,38 +1,40 @@
-[
-  {
-    "title": "Rekonstrukce podlah – historický dům, Brno",
-    "description": "Odkrytí a výměna původních dřevěných trámových stropů. Sanace nosných konstrukcí v cihelném domě.",
-    "image": "/assets/images/references/IMG-1621.jpeg",
-    "year": "2024"
-  },
-  {
-    "title": "Příprava podlah a zdiva, Brno",
-    "description": "Obnažení cihelného zdiva, pokládka nových ocelových nosníků pro podlahovou konstrukci.",
-    "image": "/assets/images/references/IMG-2238.jpeg",
-    "year": "2024"
-  },
-  {
-    "title": "Výkopové práce – dvorní trakt",
-    "description": "Zemní práce ve dvorním traktu bytového domu. Odvoz suti a příprava pro nové rozvody.",
-    "image": "/assets/images/references/IMG-3015.jpeg",
-    "year": "2024"
-  },
-  {
-    "title": "Osazení ocelové brány",
-    "description": "Montáž nové ocelové vstupní brány s lamelovou výplní do průjezdu historického domu.",
-    "image": "/assets/images/references/IMG-3342.jpeg",
-    "year": "2024"
-  },
-  {
-    "title": "Nové příčky a sádrokartonové konstrukce",
-    "description": "Vyzdívka příček z pórobetonu a příprava ocelových rámů pro sádrokartonové obložení stěn.",
-    "image": "/assets/images/references/IMG-3345.jpeg",
-    "year": "2024"
-  },
-  {
-    "title": "Rekonstrukce činžovního domu, Brno",
-    "description": "Celková rekonstrukce historického činžovního domu včetně fasády, interiérů a společných prostor.",
-    "image": "/assets/images/references/IMG-9819.jpeg",
-    "year": "2024"
-  }
-]
+{
+  "references": [
+    {
+      "title": "Rekonstrukce podlah – historický dům, Brno",
+      "description": "Odkrytí a výměna původních dřevěných trámových stropů. Sanace nosných konstrukcí v cihelném domě.",
+      "image": "/assets/images/references/IMG-1621.jpeg",
+      "year": "2024"
+    },
+    {
+      "title": "Příprava podlah a zdiva, Brno",
+      "description": "Obnažení cihelného zdiva, pokládka nových ocelových nosníků pro podlahovou konstrukci.",
+      "image": "/assets/images/references/IMG-2238.jpeg",
+      "year": "2024"
+    },
+    {
+      "title": "Výkopové práce – dvorní trakt",
+      "description": "Zemní práce ve dvorním traktu bytového domu. Odvoz suti a příprava pro nové rozvody.",
+      "image": "/assets/images/references/IMG-3015.jpeg",
+      "year": "2024"
+    },
+    {
+      "title": "Osazení ocelové brány",
+      "description": "Montáž nové ocelové vstupní brány s lamelovou výplní do průjezdu historického domu.",
+      "image": "/assets/images/references/IMG-3342.jpeg",
+      "year": "2024"
+    },
+    {
+      "title": "Nové příčky a sádrokartonové konstrukce",
+      "description": "Vyzdívka příček z pórobetonu a příprava ocelových rámů pro sádrokartonové obložení stěn.",
+      "image": "/assets/images/references/IMG-3345.jpeg",
+      "year": "2024"
+    },
+    {
+      "title": "Rekonstrukce činžovního domu, Brno",
+      "description": "Celková rekonstrukce historického činžovního domu včetně fasády, interiérů a společných prostor.",
+      "image": "/assets/images/references/IMG-9819.jpeg",
+      "year": "2024"
+    }
+  ]
+}
