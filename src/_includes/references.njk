@@ -5,7 +5,7 @@
       {% for ref in references %}
       <div class="ref-card reveal fade-up stagger" data-delay="{{ loop.index0 * 150 }}">
         <div class="ref-card__image-wrap">
-          <div class="ref-card__image" style="background-image: url('{{ ref.image }}');" data-lightbox="{{ ref.image }}" data-caption="{{ ref.title }}">
+          <div class="ref-card__image" style="background-image: url('{{ ref.image | url }}');" data-lightbox="{{ ref.image | url }}" data-caption="{{ ref.title }}">
             <div class="ref-card__overlay">
               <span class="ref-card__zoom">+ Zobrazit</span>
             </div>

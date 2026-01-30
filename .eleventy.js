@@ -20,6 +20,7 @@ module.exports = function(eleventyConfig) {
     },
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    pathPrefix: "/baniastav/"
   };
 };
