@@ -1,0 +1,40 @@
+{
+  "name": "Baniastav",
+  "slogan": "Stavíme s péčí, která je vidět",
+  "description": "Sdružení živnostníků specializující se na rekonstrukce, stavby a opravy. Kvalita a spolehlivost od roku 2010.",
+  "phone": "+420 123 456 789",
+  "email": "info@baniastav.cz",
+  "address": "Praha, Česká republika",
+  "ico": "12345678",
+  "heroHeading": "Baniastav",
+  "heroSubheading": "Sdružení živnostníků",
+  "heroText": "Rekonstrukce, stavby a opravy s důrazem na kvalitu a spolehlivost.",
+  "heroCta": "Nezávazná poptávka",
+  "aboutTitle": "O nás",
+  "aboutText": "Jsme sdružení zkušených živnostníků, kteří spojili své síly, aby vám poskytli komplexní stavební služby na nejvyšší úrovni. Každý z nás je specialista ve svém oboru – od hrubé stavby přes instalace až po finální úpravy. Díky tomu vám zajistíme kompletní realizaci bez starostí.",
+  "aboutValues": [
+    {
+      "title": "Kvalita",
+      "text": "Používáme ověřené materiály a postupy."
+    },
+    {
+      "title": "Spolehlivost",
+      "text": "Dodržujeme termíny a rozpočty."
+    },
+    {
+      "title": "Zkušenosti",
+      "text": "Více než 14 let v oboru."
+    }
+  ],
+  "stats": [
+    { "number": 14, "label": "let zkušeností" },
+    { "number": 250, "label": "dokončených realizací" },
+    { "number": 98, "suffix": "%", "label": "spokojených klientů" }
+  ],
+  "contactTitle": "Kontaktujte nás",
+  "contactText": "Máte dotaz nebo chcete nezávaznou nabídku? Neváhejte se na nás obrátit.",
+  "social": {
+    "facebook": "",
+    "instagram": ""
+  }
+}

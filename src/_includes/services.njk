@@ -1,0 +1,30 @@
+<section class="services section section--alt" id="services">
+  <div class="container">
+    <h2 class="section__title reveal fade-up">Naše služby</h2>
+    <div class="services__grid">
+      {% for service in services %}
+      <div class="service-card reveal fade-up stagger" data-delay="{{ loop.index0 * 100 }}">
+        <div class="service-card__icon" data-icon="{{ service.icon }}">
+          {% if service.icon == "reconstruction" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 8L4 28h8v24h16V36h8v16h16V28h8L32 8z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M24 28h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          {% elif service.icon == "building" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="12" y="16" width="40" height="40" rx="2" stroke="currentColor" stroke-width="3"/><rect x="20" y="24" width="8" height="8" stroke="currentColor" stroke-width="2"/><rect x="36" y="24" width="8" height="8" stroke="currentColor" stroke-width="2"/><rect x="20" y="38" width="8" height="8" stroke="currentColor" stroke-width="2"/><rect x="36" y="38" width="8" height="8" stroke="currentColor" stroke-width="2"/><path d="M32 8v8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          {% elif service.icon == "insulation" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="12" width="20" height="40" rx="2" stroke="currentColor" stroke-width="3"/><path d="M28 20h16M28 28h16M28 36h16M28 44h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M48 16v32" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/></svg>
+          {% elif service.icon == "tiles" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="20" height="20" rx="2" stroke="currentColor" stroke-width="3"/><rect x="36" y="8" width="20" height="20" rx="2" stroke="currentColor" stroke-width="3"/><rect x="8" y="36" width="20" height="20" rx="2" stroke="currentColor" stroke-width="3"/><rect x="36" y="36" width="20" height="20" rx="2" stroke="currentColor" stroke-width="3"/></svg>
+          {% elif service.icon == "drywall" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="48" height="48" rx="2" stroke="currentColor" stroke-width="3"/><path d="M8 32h48M32 8v48" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/><circle cx="20" cy="20" r="2" fill="currentColor"/><circle cx="44" cy="20" r="2" fill="currentColor"/><circle cx="20" cy="44" r="2" fill="currentColor"/><circle cx="44" cy="44" r="2" fill="currentColor"/></svg>
+          {% elif service.icon == "painting" %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 8h40v20a4 4 0 01-4 4H16a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="3"/><path d="M30 32v12a4 4 0 004 4h0a4 4 0 004-4V32" stroke="currentColor" stroke-width="3"/><rect x="26" y="48" width="12" height="8" rx="2" stroke="currentColor" stroke-width="3"/></svg>
+          {% else %}
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="24" stroke="currentColor" stroke-width="3"/><path d="M32 20v12l8 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          {% endif %}
+        </div>
+        <h3 class="service-card__title">{{ service.title }}</h3>
+        <p class="service-card__text">{{ service.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

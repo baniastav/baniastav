@@ -1,0 +1,26 @@
+<section class="about section" id="about">
+  <div class="container">
+    <h2 class="section__title reveal fade-up">{{ site.aboutTitle }}</h2>
+    <div class="about__content">
+      <div class="about__text reveal fade-right">
+        <p>{{ site.aboutText }}</p>
+        <div class="about__values">
+          {% for value in site.aboutValues %}
+          <div class="about__value">
+            <h3>{{ value.title }}</h3>
+            <p>{{ value.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="about__stats reveal fade-left">
+        {% for stat in site.stats %}
+        <div class="stat">
+          <span class="stat__number" data-target="{{ stat.number }}">0</span>{% if stat.suffix %}<span class="stat__suffix">{{ stat.suffix }}</span>{% endif %}
+          <span class="stat__label">{{ stat.label }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

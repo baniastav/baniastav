@@ -1,0 +1,12 @@
+{
+  "name": "baniastav",
+  "version": "1.0.0",
+  "description": "Web pro stavební firmu Baniastav",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

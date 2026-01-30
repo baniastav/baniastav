@@ -1,0 +1,108 @@
+backend:
+  name: github
+  repo: baniastav/baniastav  # ZMĚNIT na skutečný GitHub repozitář
+  branch: main
+
+media_folder: "src/assets/images/references"
+public_folder: "/assets/images/references"
+
+locale: "cs"
+
+collections:
+  # --- Nastavení webu ---
+  - name: "settings"
+    label: "Nastavení webu"
+    files:
+      - name: "site"
+        label: "Obecné nastavení"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Název firmy", name: "name", widget: "string" }
+          - { label: "Slogan", name: "slogan", widget: "string" }
+          - { label: "Popis webu (SEO)", name: "description", widget: "text" }
+          - { label: "Telefon", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Adresa", name: "address", widget: "string" }
+          - { label: "IČO", name: "ico", widget: "string" }
+          - label: "Hero sekce"
+            name: "heroSection"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Nadpis", name: "heroHeading", widget: "string" }
+              - { label: "Podnadpis", name: "heroSubheading", widget: "string" }
+              - { label: "Text", name: "heroText", widget: "string" }
+              - { label: "Text tlačítka", name: "heroCta", widget: "string" }
+          - label: "O nás"
+            name: "aboutSection"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Nadpis sekce", name: "aboutTitle", widget: "string" }
+              - { label: "Text", name: "aboutText", widget: "text" }
+              - label: "Hodnoty"
+                name: "aboutValues"
+                widget: "list"
+                fields:
+                  - { label: "Název", name: "title", widget: "string" }
+                  - { label: "Popis", name: "text", widget: "string" }
+              - label: "Statistiky"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Číslo", name: "number", widget: "number" }
+                  - { label: "Přípona (volitelné, např. %)", name: "suffix", widget: "string", required: false }
+                  - { label: "Popisek", name: "label", widget: "string" }
+          - label: "Kontakt"
+            name: "contactSection"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Nadpis", name: "contactTitle", widget: "string" }
+              - { label: "Text", name: "contactText", widget: "string" }
+          - label: "Sociální sítě"
+            name: "social"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+
+  # --- Služby ---
+  - name: "services"
+    label: "Služby"
+    file: "src/_data/services.json"
+    description: "Seznam nabízených služeb"
+    fields:
+      - label: "Služby"
+        name: "services"
+        widget: "list"
+        fields:
+          - { label: "Název služby", name: "title", widget: "string" }
+          - { label: "Popis", name: "description", widget: "text" }
+          - label: "Ikona"
+            name: "icon"
+            widget: "select"
+            options:
+              - { label: "Rekonstrukce", value: "reconstruction" }
+              - { label: "Stavba", value: "building" }
+              - { label: "Zateplení", value: "insulation" }
+              - { label: "Obklady", value: "tiles" }
+              - { label: "Sádrokartony", value: "drywall" }
+              - { label: "Malování", value: "painting" }
+              - { label: "Ostatní", value: "other" }
+
+  # --- Reference ---
+  - name: "references"
+    label: "Reference"
+    file: "src/_data/references.json"
+    description: "Galerie realizovaných projektů"
+    fields:
+      - label: "Reference"
+        name: "references"
+        widget: "list"
+        fields:
+          - { label: "Název projektu", name: "title", widget: "string" }
+          - { label: "Popis", name: "description", widget: "text" }
+          - { label: "Fotografie", name: "image", widget: "image" }
+          - { label: "Rok realizace", name: "year", widget: "string" }
