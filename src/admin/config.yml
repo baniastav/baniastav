@@ -2,6 +2,7 @@ backend:
   name: github
   repo: baniastav/baniastav
   branch: main
+  base_url: https://auth.sveltia.com
 
 media_folder: "src/assets/images/references"
 public_folder: "/assets/images/references"
