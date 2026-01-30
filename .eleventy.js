@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/admin");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   // Date filter for Nunjucks
   eleventyConfig.addFilter("date", function(value, format) {
@@ -21,6 +22,6 @@ module.exports = function(eleventyConfig) {
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
-    pathPrefix: "/baniastav/"
+    pathPrefix: "/"
   };
 };
