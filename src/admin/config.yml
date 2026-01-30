@@ -2,8 +2,6 @@ backend:
   name: github
   repo: baniastav/baniastav
   branch: main
-  base_url: https://frolicking-bombolone-e8692c.netlify.app
-  auth_endpoint: .netlify/oauth/start
 
 media_folder: "src/assets/images/references"
 public_folder: "/assets/images/references"
