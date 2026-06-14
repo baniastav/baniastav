@@ -3,46 +3,46 @@
   "slogan": "Stavíme s péčí, která je vidět",
   "description": "Sdružení živnostníků specializující se na rekonstrukce, stavby a opravy. Kvalita a spolehlivost od roku 2009.",
   "phone": "+420 702 950 003",
-  "email": "baniastav@gmail.com",
+  "email": "info@baniastav.cz",
   "address": "Brno, Česká republika",
   "ico": "28344910",
   "social": {
     "facebook": "",
     "instagram": ""
   },
-  "aboutTitle": "O nás",
-  "aboutText": "Jsme sdružení zkušených živnostníků, kteří spojili své síly, aby vám poskytli komplexní stavební služby na nejvyšší úrovni. Každý z nás je specialista ve svém oboru – od hrubé stavby přes instalace až po finální úpravy. Díky tomu vám zajistíme kompletní realizaci bez starostí.",
-  "aboutValues": [
-    {
-      "title": "Kvalita",
-      "text": "Používáme ověřené materiály a postupy."
-    },
-    {
-      "title": "Spolehlivost",
-      "text": "Dodržujeme termíny a rozpočty."
-    },
-    {
-      "title": "Zkušenosti",
-      "text": "Více než 14 let v oboru."
-    }
-  ],
+  "contactText": "Máte dotaz nebo chcete nezávaznou nabídku? Neváhejte se na nás obrátit.",
+  "contactTitle": "Kontaktujte nás",
   "stats": [
     {
-      "number": 14,
-      "label": "let zkušeností"
+      "label": "let zkušeností",
+      "number": 14
     },
     {
-      "number": 250,
-      "label": "dokončených realizací"
+      "label": "dokončených realizací",
+      "number": 250
     },
     {
-      "number": 98,
+      "label": "spokojených klientů",
       "suffix": "%",
-      "label": "spokojených klientů"
+      "number": 98
     }
   ],
-  "contactTitle": "Kontaktujte nás",
-  "contactText": "Máte dotaz nebo chcete nezávaznou nabídku? Neváhejte se na nás obrátit.",
+  "aboutValues": [
+    {
+      "text": "Používáme ověřené materiály a postupy.",
+      "title": "Kvalita"
+    },
+    {
+      "text": "Dodržujeme termíny a rozpočty.",
+      "title": "Spolehlivost"
+    },
+    {
+      "text": "Více než 14 let v oboru.",
+      "title": "Zkušenosti"
+    }
+  ],
+  "aboutText": "Jsme sdružení zkušených živnostníků, kteří spojili své síly, aby vám poskytli komplexní stavební služby na nejvyšší úrovni. Každý z nás je specialista ve svém oboru – od hrubé stavby přes instalace až po finální úpravy. Díky tomu vám zajistíme kompletní realizaci bez starostí.",
+  "aboutTitle": "O nás",
   "heroHeading": "Baniastav",
   "heroSubheading": "Sdružení živnostníků",
   "heroText": "Rekonstrukce, stavby a opravy s důrazem na kvalitu a spolehlivost.",
